@@ -1,4 +1,4 @@
-@extends('base')
+@extends('layouts.base')
 
 @section('header')
     <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
@@ -8,5 +8,9 @@
 @endsection
 
 @section('content')
-    <div id="graph"></div>
+    <div class="uk-grid">
+        <div class="uk-width-2-3 uk-container-center">
+            <div id="graph"></div>
+        </div>
+    </div>
 @endsection

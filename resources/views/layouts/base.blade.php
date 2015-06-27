@@ -17,8 +17,12 @@
     @yield('header')
 </head>
 <body>
-    <div id="container">
-        @yield('content')
+    <div class="uk-grid">
+        @include('layouts.header')
+        <div id="container" class="uk-width-2-3 uk-container-center">
+            @yield('content')
+        </div>
+        @include('layouts.footer')
     </div>
 </body>
 </html>

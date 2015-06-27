@@ -22,6 +22,7 @@ $(function() {
         areas:areas,
         drawsBoxLine : false, // canvasの枠線非表示
         showsAreaName : true,
+        movesIslands : true,
         font: "MS Mincho",
         fontSize: 12,
         fontColor: "areaColor",
