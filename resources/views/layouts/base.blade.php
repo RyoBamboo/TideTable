@@ -17,9 +17,10 @@
     @yield('header')
 </head>
 <body>
-    @include('header')
+    @include('layouts.header')
     <div id="container">
         @yield('content')
     </div>
+    @include('layouts.footer')
 </body>
 </html>
