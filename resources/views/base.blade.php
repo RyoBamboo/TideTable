@@ -17,6 +17,7 @@
     @yield('header')
 </head>
 <body>
+    @include('header')
     <div id="container">
         @yield('content')
     </div>

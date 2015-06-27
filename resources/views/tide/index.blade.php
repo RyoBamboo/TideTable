@@ -8,5 +8,9 @@
 @endsection
 
 @section('content')
-    <div id="graph"></div>
+    <div class="uk-grid">
+        <div class="uk-width-2-3 uk-container-center">
+            <div id="graph"></div>
+        </div>
+    </div>
 @endsection
