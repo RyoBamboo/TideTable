@@ -1,0 +1,9 @@
+# Laravel
+/vendor
+/node_modules
+.env
+
+#PhpStorm
+*.iml
+.idea/
+/out/
